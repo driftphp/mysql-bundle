@@ -1,0 +1,5 @@
+services:
+
+    mysql.users_connection.test:
+        alias: mysql.users_connection
+        public: true
