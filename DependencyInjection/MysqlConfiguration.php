@@ -32,7 +32,7 @@ class MysqlConfiguration extends BaseConfiguration
     {
         $rootNode
             ->children()
-                ->arrayNode('clients')
+                ->arrayNode('connections')
                     ->prototype('array')
                         ->children()
                             ->scalarNode('host')

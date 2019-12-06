@@ -94,7 +94,7 @@ class MysqlExtension extends BaseExtension
     protected function getParametrizationValues(array $config): array
     {
         return [
-            'mysql.clients_configuration' => $config['clients'],
+            'mysql.clients_configuration' => $config['connections'],
         ];
     }
 }
