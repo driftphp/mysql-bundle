@@ -19,9 +19,9 @@ use Drift\Mysql\DependencyInjection\CompilerPass\MysqlUrlBuilder;
 use PHPUnit\Framework\TestCase;
 
 /**
- * Class RedisUrlBuilderTest.
+ * Class MysqlUrlBuilderTest.
  */
-class RedisUrlBuilderTest extends TestCase
+class MysqlUrlBuilderTest extends TestCase
 {
     /**
      * Test build url.
