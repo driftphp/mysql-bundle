@@ -1,4 +1,4 @@
-# DriftPHP - Redis adapter
+# DriftPHP - MySQL adapter
 
 [![CircleCI](https://circleci.com/gh/driftphp/mysql-bundle.svg?style=svg)](https://circleci.com/gh/driftphp/mysql-bundle)
 
