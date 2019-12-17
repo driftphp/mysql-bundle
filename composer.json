@@ -1,20 +1,29 @@
 {
   "name": "drift/mysql-bundle",
+  "description": "Mysql Bundle for DriftPHP, a framework on top of Symfony and ReactPHP components",
   "type": "library",
   "license": "MIT",
 
+  "authors": [
+    {
+      "name": "Marc Morera",
+      "email": "yuhu@mmoreram.com"
+    }
+  ],
+
   "require": {
-    "php": "^7.1.3",
+    "php": "^7.3",
     "react/mysql": "^0.5.4",
-    "drift/http-kernel": "^0.1",
-    "mmoreram/base-bundle": "^2.0.2",
-    "mmoreram/symfony-bundle-dependencies": "^2.2",
-    "phpunit/phpunit": "7.5.17"
+    "drift/http-kernel": "0.1.*",
+    "mmoreram/base-bundle": "^2.1"
   },
 
   "autoload": {
     "psr-4": {
       "Drift\\Mysql\\": "."
-    }
+    },
+    "exclude-from-classmap": [
+      "/Tests/"
+    ]
   }
 }
