@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Drift Http Kernel
+ * This file is part of the Drift Project
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -33,7 +33,7 @@ class MysqlCompilerPass implements CompilerPassInterface
      */
     public function process(ContainerBuilder $container)
     {
-        $connectionsConfiguration = $container->getParameter('mysql.clients_configuration');
+        $connectionsConfiguration = $container->getParameter('mysql.connections_configuration');
         if (empty($connectionsConfiguration)) {
             return;
         }
