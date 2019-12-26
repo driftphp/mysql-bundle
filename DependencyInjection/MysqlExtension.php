@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of the Drift Http Kernel
+ * This file is part of the Drift Project
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
@@ -94,7 +94,7 @@ class MysqlExtension extends BaseExtension
     protected function getParametrizationValues(array $config): array
     {
         return [
-            'mysql.clients_configuration' => $config['connections'],
+            'mysql.connections_configuration' => $config['connections'],
         ];
     }
 }
